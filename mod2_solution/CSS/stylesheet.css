@@ -1,0 +1,107 @@
+/*Base Style + Desktop Styling (992px and up)*/
+
+body {
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+div {
+	margin:10px;
+	padding:10px;
+	border:3px solid black;
+	background-color: #cccccc;
+	float: right;
+	width: 395px;
+	box-sizing: border-box;
+}
+
+h2 {
+	margin:-12px;
+	padding:10px;
+	border:3px solid black;
+	text-align: center;
+	float:right;
+	width:130px;
+	box-sizing: border-box;
+}
+
+p {
+	margin:10px;
+	padding:10px;
+	border:3px;
+	text-align: left;
+	float:right;
+	box-sizing: border-box;
+}
+
+h2.Chicken {
+	background-color: #FFB3B3;
+}
+
+h2.Beef {
+	color: #FFFFFF;
+	background-color: #FF0000;
+
+}
+
+h2.Sushi {
+	background-color: #FFD480;
+}
+
+
+/*tablet view between 768px and 991p*/
+@media(min-width: 768px) and (max-width: 991px) {
+
+
+	#Chicken {
+		margin:10px;
+		padding:10px;
+		border:3px solid black;
+		background-color: #cccccc;
+		float:right;
+		width:460px;
+		box-sizing: border-box;
+	}
+
+	#Beef {
+		margin:10px;
+		padding:10px;
+		border:3px solid black;
+		background-color: #cccccc;
+		float:right;
+		width:460px;
+		box-sizing: border-box;
+	}
+
+	#Sushi {
+		margin:10px;
+		padding:10px;
+		border:3px solid black;
+		background-color: #cccccc;
+		float:right;
+		width:940px;
+		box-sizing: border-box;
+	}
+
+}
+
+ /*mobile view is equal to or less than 767px*/
+ @media(max-width: 767px) {
+
+	 div {
+		margin:10px;
+		padding:10px;
+		border:3px solid black;
+		background-color: #cccccc;
+		float: right;
+		width: 680px;
+		box-sizing: border-box;
+	}
+
+ }
+
+/*works however for tablet and mobile view sushi is on top but chicken should on the top, need to fix this!*/
